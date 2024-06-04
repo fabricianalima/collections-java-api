@@ -1,4 +1,4 @@
-package Pesquisa;
+package map.Pesquisa;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,6 @@
-package Ordenacao;
+package map.OperacoesBasicas;
+
+import map.Ordenacao.Evento;
 
 import java.time.LocalDate;
 import java.time.Month;
