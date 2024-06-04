@@ -1,6 +1,4 @@
-package map.OperacoesBasicas;
-
-import map.Ordenacao.Evento;
+package map.Ordenacao;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -10,14 +8,13 @@ import java.util.TreeMap;
 
 public class AgendaEventos {
 
-    private Map<LocalDate, Evento> eventosMap;
+    private Map<LocalDate, Evento> eventosMap = new HashMap<>();
 
     public void AgendaEventos() {
         this.eventosMap = new HashMap<>();
     }
 
     public void adicionarEventos(LocalDate data, String nome, String atracao) {
-        Evento evento = new Evento(nome, atracao);
         eventosMap.put(data, new Evento(nome, atracao));
     }
 
